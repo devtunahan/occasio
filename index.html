@@ -10,10 +10,23 @@
     <nav class="navigation">
         <img id="logo" src="images/occasio-white.png" width="100px" alt="Occasio Logo">
        <div class="navBtns">
-        <button type="button" class="navBtn" id="feedBackBtn">Give Feedback</button>
+        <button type="button" class="navBtn" id="feedbackBtn">Give Feedback</button>
         <button type="button" class="navBtn" id="eventBtn">Create Event</button>   
         <button type="button" class="theme">Lightmode</button> 
     </div>
     </nav>
+    <!-- POP UP WINDOW -->
+    <div id="popup-window">
+        <button type="button" id="close-button">X</button>
+        <h1>Feedback Form</h1>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required pattern="[A-Za-z0-9]{1,20}"><br>
+            <label for="feedback">Feedback:</label><br>
+            <textarea id="feedback" name="feedback" required></textarea><br>
+            <button type="submit" id="submit-button">Submit</button>
+        </form>
+      </div>  
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

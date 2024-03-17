@@ -3,7 +3,7 @@ margin: 0;
 }
 
 .navigation {
-    background-color: lightgrey;
+    background-color: black;
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -17,4 +17,23 @@ margin: 0;
 .theme {
     margin-left: 30px;
 }
-  
+
+#popup-window {
+  position: fixed;
+  width: 300px;
+  height: 200px;
+  background: white;
+  border: 1px solid black;
+  padding: 10px;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+}   
+
+#close-button {
+  float:right;
+}
