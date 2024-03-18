@@ -12,7 +12,6 @@
        <div class="navBtns">
         <button type="button" class="navBtn" id="feedbackBtn">Give Feedback</button>
         <button type="button" class="navBtn" id="eventBtn">Create Event</button>   
-        <button type="button" class="theme">Lightmode</button> 
     </div>
     </nav>
     <!-- POP UP WINDOW -->
@@ -21,9 +20,9 @@
         <h1>Feedback Form</h1>
         <form>
             <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required pattern="[A-Za-z0-9]{1,20}"><br>
+            <input type="text" id="name" name="name" required pattern="[A-Za-z0-9]{1,20}" size="40"><br>
             <label for="feedback">Feedback:</label><br>
-            <textarea id="feedback" name="feedback" required></textarea><br>
+            <textarea id="feedback" name="feedback" required rows="4" cols="40"></textarea><br>
             <button type="submit" id="submit-button">Submit</button>
         </form>
       </div>  
